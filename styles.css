@@ -12,11 +12,11 @@ header {
     background-color: #700e0e;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    text-align: auto;
 }
 /* navigaatio */
 nav {
-    text-align: center;
+    text-align: auto;
     margin: 20px 0;
 }
 nav a {
@@ -39,7 +39,7 @@ section{
 }
 /* yhteystiedot */
 footer {
-    text-align: center;
+    text-align: auto;
     margin: 20px 0;
     font-size: 0.9em;
 
