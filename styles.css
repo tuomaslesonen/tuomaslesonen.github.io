@@ -21,13 +21,11 @@ nav {
 }
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #4c0ddf;
     margin-top: 0 10px;
     font-weight: bold;
 }
-nav a:hover{
-    color: #007BFF;
-}
+
 /* sisältöosat */
 section{
     max-width: 800px;
@@ -44,5 +42,5 @@ footer {
     text-align: center;
     margin: 20px 0;
     font-size: 0.9em;
-    
+
 }
