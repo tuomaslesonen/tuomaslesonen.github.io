@@ -4,12 +4,12 @@ body {
     line-height: 1,6;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background: linear-gradient(to right, #81bbaa, #666866);
     color: #3a2c2c;
 }
 /* otsikkoalue */
 header {
-    background-color: #700e0e;
+    background-color: #385854;
     color: #fff;
     padding: 20px;
     text-align: auto;
@@ -63,4 +63,10 @@ footer {
     max-width: 100%;
     height: auto;
   }
+}
+h3 {
+    color: #080708;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
