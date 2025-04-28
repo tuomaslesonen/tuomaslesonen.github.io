@@ -9,7 +9,23 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
+      <style>
+        html, body {
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          height: 100%;
+          width: 100%;
+          background: black; /* tai mikä haluatkaan */
+        }
+        #unity-canvas {
+          width: 100%;
+          height: 100%;
+          display: block;
+          background: black; /* varaväri ennen latausta */
+        }
+      </style>
+      
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
