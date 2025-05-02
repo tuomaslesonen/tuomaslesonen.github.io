@@ -68,25 +68,6 @@
             </p>
             <p>In addition to my experience in software development, I have over 25 years of work experience in various fields. My previous education is in air conditioning installation.</p>
         </section>
-        <h3>Test my game and have fun</h3>
-        <p><a href="Game/index.html" target="_blank">Click here to play the game!</a></p>
-        </div>
-        
-        <script>
-            function scaleGame() {
-                var container = document.getElementById('game-container');
-                var frame = document.getElementById('game-frame');
-                var scaleX = container.clientWidth / 960;
-                var scaleY = container.clientHeight / 600;
-                var scale = Math.min(scaleX, scaleY); // TÄMÄ tärkeä! Kuvasuhde säilyy
-                frame.style.transform = 'scale(' + scale + ')';
-                frame.style.width = (960) + "px";
-                frame.style.height = (600) + "px";
-            }
-            
-            window.addEventListener('resize', scaleGame);
-            window.addEventListener('load', scaleGame);
-            </script>
         
         <section>
             <h2>Contact Information</h2>
