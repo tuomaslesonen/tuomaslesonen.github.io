@@ -2,8 +2,8 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
     line-height: 1,6;
-    margin: 0;
-    padding: 0;
+    margin: 44px ;
+    padding: 26px;
     background: linear-gradient(to right, #81bbaa, #666866);
     color: #3a2c2c;
 }
@@ -69,4 +69,9 @@ h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
     margin-left: 10px;
+}
+section {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
